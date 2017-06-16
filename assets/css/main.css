@@ -1,0 +1,54 @@
+/*Pagina de inicio*/
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+	background: url("../img/blurry-background.jpg");
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+	color:white;
+}
+
+
+/* 1st section*/
+
+.navbar-default{
+	background-color: transparent;
+	border: none;
+}
+
+.logo{
+	width: 50%;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+/*formulario*/
+.formulario{
+	padding:30px 20px;
+}
+.formulario input{
+	color:white;
+	font-weight:bolder;
+	height:50px;
+	background-color:rgba(255,255,255,0.3);
+}
+.formulario input::placeholder{
+	color:white;
+	font-weight: bolder;
+	padding-left:10px;
+}
+.formulario button{
+	color:white;
+	font-weight: bolder;
+	padding: 10px 0;
+	border:1px solid white;
+	background-color:transparent;
+}
+/*formulario*/
+.formulario{
+	text-align: center;
+}
